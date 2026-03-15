@@ -1,0 +1,14 @@
+/home/golem/bmstu/AASOIU/Homework1/bin/Debug/net8.0/Homework1
+/home/golem/bmstu/AASOIU/Homework1/bin/Debug/net8.0/Homework1.deps.json
+/home/golem/bmstu/AASOIU/Homework1/bin/Debug/net8.0/Homework1.runtimeconfig.json
+/home/golem/bmstu/AASOIU/Homework1/bin/Debug/net8.0/Homework1.dll
+/home/golem/bmstu/AASOIU/Homework1/bin/Debug/net8.0/Homework1.pdb
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.GeneratedMSBuildEditorConfig.editorconfig
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.AssemblyInfoInputs.cache
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.AssemblyInfo.cs
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.csproj.CoreCompileInputs.cache
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.dll
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/refint/Homework1.dll
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.pdb
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/Homework1.genruntimeconfig.cache
+/home/golem/bmstu/AASOIU/Homework1/obj/Debug/net8.0/ref/Homework1.dll
