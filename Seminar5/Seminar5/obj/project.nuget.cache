@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ifymxdLj2Ek=",
+  "success": true,
+  "projectFilePath": "/Users/xserx/код/bmstu/AASOIU/Seminar5/Seminar5/Seminar5.csproj",
+  "expectedPackageFiles": [
+    "/Users/xserx/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.8/microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
+    "/Users/xserx/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.8/microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
