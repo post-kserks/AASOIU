@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "c2uQf1ZosTw=",
+  "success": true,
+  "projectFilePath": "/Users/xserx/код/bmstu/AASOIU/Seminar3/Seminar3/Seminar3.csproj",
+  "expectedPackageFiles": [
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/microsoft.data.sqlite/9.0.1/microsoft.data.sqlite.9.0.1.nupkg.sha512",
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/microsoft.data.sqlite.core/9.0.1/microsoft.data.sqlite.core.9.0.1.nupkg.sha512",
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "/var/folders/ps/2bcdcn697gx71vc7rq9v4dwh0000gn/T/cursor-sandbox-cache/4273a936e9d688362603469b3368791a/nuget/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
