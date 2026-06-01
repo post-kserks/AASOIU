@@ -1,0 +1,14 @@
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/bin/Debug/net10.0/Seminar7
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/bin/Debug/net10.0/Seminar7.deps.json
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/bin/Debug/net10.0/Seminar7.runtimeconfig.json
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/bin/Debug/net10.0/Seminar7.dll
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/bin/Debug/net10.0/Seminar7.pdb
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.AssemblyInfoInputs.cache
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.AssemblyInfo.cs
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.csproj.CoreCompileInputs.cache
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.dll
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/refint/Seminar7.dll
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.pdb
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/Seminar7.genruntimeconfig.cache
+/Users/xserx/код/bmstu/AASOIU/Seminar7/Seminar7/obj/Debug/net10.0/ref/Seminar7.dll
