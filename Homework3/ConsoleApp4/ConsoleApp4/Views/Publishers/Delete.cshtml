@@ -1,0 +1,34 @@
+@model Publisher
+
+@{
+    ViewData["Title"] = "Удалить издательство";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Удалить издательство</h1>
+        <p>Подтвердите удаление записи справочника.</p>
+    </div>
+</section>
+
+<div class="panel">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <dl>
+        <dt>Издательство</dt>
+        <dd>@Model.Name</dd>
+        <dt>Связанных журналов</dt>
+        <dd>@Model.Magazines.Count</dd>
+    </dl>
+    @if (Model.Magazines.Any())
+    {
+        <p class="validation">Удаление запрещено: сначала удалите или перенесите связанные журналы.</p>
+        <a class="button" asp-action="Index">Назад</a>
+    }
+    else
+    {
+        <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+            <button class="button danger" type="submit">Удалить</button>
+            <a class="button" asp-action="Index">Отмена</a>
+        </form>
+    }
+</div>

@@ -1,0 +1,77 @@
+@model ReportsViewModel
+
+@{
+    ViewData["Title"] = "Отчёт";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Отчёт</h1>
+        <p>Три раздела, сформированные средствами LINQ to Entities.</p>
+    </div>
+</section>
+
+<section class="report-section">
+    <h2>Полный список журналов</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Журнал</th>
+                <th>Издательство</th>
+                <th>Тираж, тыс. экз.</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in Model.Magazines)
+            {
+                <tr>
+                    <td>@row.MagazineName</td>
+                    <td>@row.PublisherName</td>
+                    <td>@row.CirculationK</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+<section class="report-section">
+    <h2>Количество журналов по издательствам</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Издательство</th>
+                <th>Количество журналов</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in Model.CountsByPublisher)
+            {
+                <tr>
+                    <td>@row.PublisherName</td>
+                    <td>@row.MagazineCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+<section class="report-section">
+    <h2>Средний тираж по издательствам</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Издательство</th>
+                <th>Средний тираж, тыс. экз.</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in Model.AverageCirculationByPublisher)
+            {
+                <tr>
+                    <td>@row.PublisherName</td>
+                    <td>@row.AverageCirculationK.ToString("F1")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

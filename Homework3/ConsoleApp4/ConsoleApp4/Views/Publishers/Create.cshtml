@@ -1,0 +1,24 @@
+@model Publisher
+
+@{
+    ViewData["Title"] = "Добавить издательство";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Добавить издательство</h1>
+        <p>Введите название новой записи справочника.</p>
+    </div>
+</section>
+
+<form asp-action="Create" method="post" class="form">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <label asp-for="Name"></label>
+    <input asp-for="Name" autofocus />
+    <span asp-validation-for="Name" class="validation"></span>
+
+    <div class="form-actions">
+        <button class="button primary" type="submit">Сохранить</button>
+        <a class="button" asp-action="Index">Отмена</a>
+    </div>
+</form>

@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ConsoleApp4
+build_property.RootNamespace = ConsoleApp4
+build_property.ProjectDir = /Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Magazines/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFnYXppbmVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Magazines/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFnYXppbmVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Magazines/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFnYXppbmVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Magazines/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFnYXppbmVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/xserx/код/bmstu/AASOIU/Homework3/ConsoleApp4/ConsoleApp4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

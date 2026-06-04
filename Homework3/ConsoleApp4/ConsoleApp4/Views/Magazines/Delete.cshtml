@@ -1,0 +1,27 @@
+@model Magazine
+
+@{
+    ViewData["Title"] = "Удалить журнал";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Удалить журнал</h1>
+        <p>Подтвердите удаление записи основной таблицы.</p>
+    </div>
+</section>
+
+<div class="panel">
+    <dl>
+        <dt>Журнал</dt>
+        <dd>@Model.Name</dd>
+        <dt>Издательство</dt>
+        <dd>@Model.Publisher?.Name</dd>
+        <dt>Тираж, тыс. экз.</dt>
+        <dd>@Model.CirculationK</dd>
+    </dl>
+    <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+        <button class="button danger" type="submit">Удалить</button>
+        <a class="button" asp-action="Index">Отмена</a>
+    </form>
+</div>

@@ -1,0 +1,38 @@
+@model IReadOnlyList<Publisher>
+
+@{
+    ViewData["Title"] = "Издательства";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Издательства</h1>
+        <p>Справочник издательств, связанных с журналами.</p>
+    </div>
+    <a class="button primary" asp-action="Create">Добавить</a>
+</section>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Журналов</th>
+            <th class="actions">Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var publisher in Model)
+        {
+            <tr>
+                <td>@publisher.Id</td>
+                <td>@publisher.Name</td>
+                <td>@publisher.Magazines.Count</td>
+                <td class="actions">
+                    <a asp-action="Edit" asp-route-id="@publisher.Id">Редактировать</a>
+                    <a asp-action="Delete" asp-route-id="@publisher.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+@model IReadOnlyList<Magazine>
+
+@{
+    ViewData["Title"] = "Журналы";
+}
+
+<section class="page-head">
+    <div>
+        <h1>Журналы</h1>
+        <p>Основная таблица с отображением связанного издательства.</p>
+    </div>
+    <a class="button primary" asp-action="Create">Добавить</a>
+</section>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Издательство</th>
+            <th>Тираж, тыс. экз.</th>
+            <th class="actions">Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var magazine in Model)
+        {
+            <tr>
+                <td>@magazine.Id</td>
+                <td>@magazine.Name</td>
+                <td>@magazine.Publisher?.Name</td>
+                <td>@magazine.CirculationK</td>
+                <td class="actions">
+                    <a asp-action="Edit" asp-route-id="@magazine.Id">Редактировать</a>
+                    <a asp-action="Delete" asp-route-id="@magazine.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
